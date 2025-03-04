@@ -12,16 +12,14 @@ import {
 
 export const config = {
   platform: "com.abhijeet-tech.restate",
-  endpoint: process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT,
-  projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID,
-  databaseId: process.env.EXPO_PUBLIC_APPWRITE_DATABASE_ID,
-  galleriesCollectionId:
-    process.env.EXPO_PUBLIC_APPWRITE_GALLERIES_COLLECTION_ID,
-  reviewsCollectionId: process.env.EXPO_PUBLIC_APPWRITE_REVIEWS_COLLECTION_ID,
-  agentsCollectionId: process.env.EXPO_PUBLIC_APPWRITE_AGENTS_COLLECTION_ID,
-  propertiesCollectionId:
-    process.env.EXPO_PUBLIC_APPWRITE_PROPERTIES_COLLECTION_ID,
-  bucketId: process.env.EXPO_PUBLIC_APPWRITE_BUCKET_ID,
+  endpoint: "https://cloud.appwrite.io/v1", //process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT,
+  projectId: "67b4f21500049234bb36", //process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID,
+  databaseId: "67c1e9060011a2c00514", //process.env.EXPO_PUBLIC_APPWRITE_DATABASE_ID,
+  galleriesCollectionId: "67c1e9f7001726fea066", //process.env.EXPO_PUBLIC_APPWRITE_GALLERIES_COLLECTION_ID,
+  reviewsCollectionId: "67c1ea5000021651186c", //process.env.EXPO_PUBLIC_APPWRITE_REVIEWS_COLLECTION_ID,
+  agentsCollectionId: "67c1e92d001714c92027", //process.env.EXPO_PUBLIC_APPWRITE_AGENTS_COLLECTION_ID,
+  propertiesCollectionId: "67c1eae3000a06a085d3", //process.env.EXPO_PUBLIC_APPWRITE_PROPERTIES_COLLECTION_ID,
+  // bucketId: process.env.EXPO_PUBLIC_APPWRITE_BUCKET_ID,
 };
 
 export const client = new Client();
